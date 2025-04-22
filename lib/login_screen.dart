@@ -11,7 +11,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _passwordController = TextEditingController();
 
   final _formKey = GlobalKey<FormState>();
-  String errorMessage = 'Incorrect Password';
+  String errorMessage = '';
 
   void _login() {
     final email = _emailController.text.trim();
